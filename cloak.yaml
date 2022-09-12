@@ -1,0 +1,9 @@
+name: cloak-ruby
+scripts:
+  - path: script
+    sdk: ts
+dependencies:
+  - git:
+      remote: git@github.com:kpenfound/cloak.git
+      ref: example/rails
+      path: examples/rails/cloak.yaml
