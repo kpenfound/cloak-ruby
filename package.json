@@ -8,7 +8,9 @@
   "private": false,
   "type": "module",
   "scripts": {
-    "migrate": "node script/migrate.mjs"
+    "migrate": "node script/migrate.mjs",
+    "build": "node script/build.mjs",
+    "test": "node script/test.mjs"
   },
   "dependencies": {
     "@types/node": "^18.7.16",
