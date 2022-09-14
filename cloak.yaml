@@ -7,3 +7,7 @@ dependencies:
       remote: git@github.com:kpenfound/cloak.git
       ref: example/rails
       path: examples/rails/cloak.yaml
+  - git:
+      remote: git@github.com:kpenfound/cloak.git
+      ref: example/terraform
+      path: examples/terraform/cloak.yaml

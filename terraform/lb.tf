@@ -6,14 +6,18 @@ resource "aws_lb" "blog" {
   subnets            = data.aws_subnets.default.ids
 
   enable_deletion_protection = true
+
+  tags = {
+    Name = var.name
+  }
 }
 
 resource "aws_lb_target_group" "blog" {
   name        = var.name
-  target_type = "alb"
   port        = 3000
-  protocol    = "TCP"
+  protocol    = "HTTP"
   vpc_id      = local.vpc_id
+  target_type = "ip"
 }
 
 resource "aws_lb_listener" "blog" {

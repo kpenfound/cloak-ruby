@@ -10,6 +10,9 @@
   "scripts": {
     "migrate": "node script/migrate.mjs",
     "build": "node script/build.mjs",
+    "tfplan": "node script/tfplan.mjs",
+    "tfapply": "node script/tfapply.mjs",
+    "tfdestroy": "node script/tfdestroy.mjs",
     "test": "node script/test.mjs"
   },
   "dependencies": {

@@ -18,14 +18,14 @@ variable "name" {
   default = "blog"
 }
 
-variable "image" {
-  default = ""
-}
-
 variable "domain" {
   default = "kpenfound.io"
 }
 
 variable "fqdn" {
   default = "blog.kpenfound.io"
+}
+
+variable "db_class" {
+  default = "db.t4g.medium"
 }
