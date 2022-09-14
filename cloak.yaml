@@ -4,10 +4,10 @@ scripts:
     sdk: ts
 dependencies:
   - git:
-      remote: git@github.com:kpenfound/cloak.git
-      ref: example/rails
-      path: examples/rails/cloak.yaml
+      remote: git@github.com:kpenfound/dagger-rails.git
+      ref: main
+      path: cloak.yaml
   - git:
-      remote: git@github.com:kpenfound/cloak.git
-      ref: example/terraform
-      path: examples/terraform/cloak.yaml
+      remote: git@github.com:kpenfound/dagger-terraform.git
+      ref: main
+      path: cloak.yaml
