@@ -23,7 +23,7 @@ The infrastructure for this rails blog is defined under [terraform/](terraform/)
 
 Similar to the explaination above for rails, executing this in cloak lets us guarantee consistency across execution environments.
 
-Running `yarn run tfplan` executes [scripts/tfplan.mjs](scripts/tfplan.mjs)
+Running `yarn run tfplan` executes [script/tfplan.mjs](script/tfplan.mjs)
 
 ### Container things
 We push containers
